@@ -1,0 +1,7 @@
+__pycache__
+data
+fairscale
+output
+wandb
+scripts/__pycache__
+scripts/Helsinki_generate
