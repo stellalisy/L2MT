@@ -4,13 +4,6 @@ Silver dataset creation project using Wikiann data for Named Entity Recognition 
 
 ### Step-by-step Instruction
 
-```
-# Example:
-src_lang=ca
-tgt_lang=es
-trans_dir=[path/to/translation/directory]
-```
-
 1. First, generate errors from clean parallel data:  `qsub scripts/gen_errors.sh [train|dev|test] [typo|runon|paraphrase]`
     ```
     python3 scripts/gen_errors.py \
